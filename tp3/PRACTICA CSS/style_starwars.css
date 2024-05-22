@@ -1,0 +1,26 @@
+.Imperio {
+    background-color: red;
+}
+.Rebeldes{
+    background-color: blue;
+}
+#Darth-Vader{
+    font-size:x-large;
+}
+#Luke_Skywalker{
+    font-style:italic;
+}
+.Soladados{
+    border: 5;
+    border-style:dashed solid;
+    letter-spacing: 5px;
+}
+.apoyo{
+    text-align: center;
+}
+.naves{
+    text-transform:uppercase ;
+}
+.droides{
+ align-content: center;
+}

@@ -1,0 +1,22 @@
+.carnivoros{
+    background-color: #5f1616
+    ;
+}
+.herbivoros{
+    background-color: #7eec8d;
+}
+#rex{
+    font-size:24px;
+    color: rgb(211, 28, 248);
+}
+#Triceratops{
+    font-weight: bold;
+    text-decoration: underline;
+}
+#voladores{
+    text-shadow: 5px 20px 2px rgb(54, 68, 77);
+}
+#acuaticos{
+    font-style: italic;
+    color: blue;
+}
