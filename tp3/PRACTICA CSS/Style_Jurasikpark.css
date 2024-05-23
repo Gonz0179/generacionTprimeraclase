@@ -20,3 +20,7 @@
     font-style: italic;
     color: blue;
 }
+.atracciones {
+    letter-spacing: 5px;
+    border: 5px  dashed #df0808;
+}
