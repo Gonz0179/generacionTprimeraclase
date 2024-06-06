@@ -1,0 +1,170 @@
+
+body{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: beige;
+}
+#container{
+    display: grid;
+    grid-template-columns: 1/2fr 1fr 1fr 1fr;
+    grid-template-rows: 3;
+    margin-top: 50px;
+    margin: 0 auto; 
+    width:100%;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 25px;
+    border-radius: 50px;
+    background-color: rgb(182, 182, 162);
+
+}
+.F1{
+    grid-column-start: 2 ;
+    grid-row: 2;
+}
+.F2{
+    grid-column-start: 3 ;
+    grid-row: 2;
+}
+.F3{
+    grid-column-start: 4 ;
+    grid-row: 2;
+}
+
+.F4{
+    grid-column: 2;
+    grid-row: 3;
+    height: 300px;
+}
+
+.F5{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.F6{
+    grid-column: 4;
+    grid-row: 3;
+}
+
+.F7{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.F8{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.F9{
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.Titulo{
+    padding: auto;
+    background-color: rgb(197, 167, 129);
+    border-top-left-radius: 50px;
+    width: 100%;
+    border-top-right-radius:50px ;
+}
+.Titulo-h1{
+    font-size: 40px;
+    margin: left;
+    text-shadow: 10px 10px 10px rgb(90, 134, 134);
+    text-transform: uppercase;
+    font-style: italic;
+    text-align:start; 
+   
+}
+.Linea-larga{
+    background-color: black;
+    width:100%;
+    height: 5px;
+    margin-bottom: 100px;
+}
+.Contacto{
+    grid-column-start: 1;
+    grid-row-start: 3 ;
+    grid-row-end: 3;
+    width: 500px;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+    background-color: rgb(163, 163, 147);
+    margin-left: 10px;
+    border-radius: 25px;
+
+}
+
+img{
+align-content: center;
+height: 100%;
+width: 100%;
+object-fit: cover;
+border-radius: 50px;
+}
+.Titulo, .Subrayados .Linea-larga{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1 ;
+    grid-row-end: 1;
+
+}
+@media (max-width: 600px) {
+    .Titulo-h1 {
+        font-size: 20px; /* Estilos para pantallas pequeñas */
+    }
+    .Contacto{
+        grid-column-start: 1;
+        grid-row-start: 3 ;
+        grid-row-end: 3;
+        width: 100px;
+        text-align: center;
+    
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .Titulo-h1 {
+        font-size: 30px; /* Estilos para pantallas medianas */
+    }
+    .Contacto{
+        grid-column-start: 1;
+        grid-row-start: 3 ;
+        grid-row-end: 3;
+        width: 250px;
+        text-align: center;
+       
+    }
+}
+
+@media (min-width: 901px) {
+    .Titulo-h1 {
+        font-size: 40px; /* Estilos para pantallas grandes */
+    }
+    .Contacto{
+        grid-column-start: 1;
+        grid-row-start: 3 ;
+        grid-row-end: 3;
+        width: 350px;
+        text-align: center;
+    }
+}
+
+.contenedor-contacto{
+    display:inline-block;
+    width: 550px;
+    height: 200px;
+    background-color: rgb(182, 182, 137);
+    padding: 50px;
+    margin-left: 30%;
+    margin-right: 40%;
+    border-radius: 25px;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    text-align: center;
+    
+
+}
