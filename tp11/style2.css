@@ -1,0 +1,63 @@
+/*
+body {
+    height: 100vh;
+    background: url('https://i.imgur.com/jnCXdAx.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.movable {
+    position: fixed;
+}
+
+
+#colorInput {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    padding: 5px;
+}
+
+*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#track {
+    width: 80%;
+    height: 200px;
+    border: 2px solid #000;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#track img {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#car1{
+    height:  10%;
+    width:  20%;
+}
+
+
+#car2{
+    height: 5px;
+    width: 5px;
+}
+
+
+
+
+

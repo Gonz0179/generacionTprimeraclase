@@ -1,4 +1,37 @@
-.resaltado{
+.Color{
+    background: linear-gradient(to bottom right, blue, pink);
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.resaltado {
     background-color: yellow;
     color: red;
+}
+
+
+.oculto {
+    display: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax( 200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    justify-items: center;
+
+}
+img{
+    border-radius: 30px;
+}
+body { 
+    background-image: url(carretera.png);
+    background-repeat: no-repeat;
 }

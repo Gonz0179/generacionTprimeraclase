@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Futurista;
+    src: url(fuente/SHUTTLE-X.ttf);
+}
+body {
+    text-align: center;
+    background-image: url('https://i.pinimg.com/originals/40/32/e5/4032e5fb4cf8094a909c18970a5a6b54.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Futurista;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+.oculto {
+    display: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 10% auto;
+    background-color: rgba(39, 39, 39, 0.692);
+    padding: 2%;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+h1 {
+    user-select: none;
+    font-size: 28px;
+    font-family: monospace;
+}
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 20px;
+}
+#timeSpan {
+    font-size: 25px;
+}
+#text {
+    font-size: 20px;
+    font-family: Futurista;
+    border: 0;
+    color: red;
+    border-bottom: 1px solid black;
+    transition: all 1s ease;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+button{
+    background:#1519f7;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+    border-radius: 20px;
+  }
+  button:hover{
+    background:#07c0f8;
+    color:#000000;
+    border-radius: 20px;
+  }
+  button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #630fff;
+    transition:400ms ease all;
+    border-radius: 20px;
+  }
+  button:after{ 
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+    border-radius: 20px;
+  }
+  button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+    border-radius: 20px;
+  }
+  #Puntaje{
+    font-size: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        margin-top: 5%;
+    }
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    #timeSpan {
+        font-size: 22px;
+    }
+
+    #text {
+        font-size: 18px;
+    }
+}
+
