@@ -1,0 +1,38 @@
+/* src/components/ProductCard.css */
+.product-card {
+  background-color: #fff;
+  color: #000;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.product-card.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.product-image {
+  width: 100%; /* Esto hará que la imagen se ajuste al ancho de la tarjeta */
+  height: 200px; /* Establece una altura fija */
+  object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsionar */
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.product-name {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.product-description {
+  margin: 0;
+  font-size: 0.9rem;
+}

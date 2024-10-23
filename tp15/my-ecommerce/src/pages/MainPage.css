@@ -1,0 +1,18 @@
+/* src/pages/MainPage.css */
+.main-page {
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    padding: 2rem;
+    transition: background-color 0.3s;
+  }
+  
+  .main-page.dark {
+    background-color: #1a1a1a;
+  }
+  
+  .product-list {
+    display: grid; /* Cambia a grid */
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); /* Muestra hasta 4 tarjetas en una fila */
+    gap: 2rem; /* Espacio entre tarjetas */
+  }
+  
